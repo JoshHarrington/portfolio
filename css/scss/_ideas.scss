@@ -1,0 +1,25 @@
+// arrow in bottom right corner that expands on hover of above link
+
+
+a.bgImg {
+    &:before {
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-left: 4em solid transparent;
+        border-bottom:4em solid $jh-blue;
+        border-bottom:4em solid rgba( $jh-blue, .6 );
+        transition: border-color 0.3s, border-width 0.3s;
+    }
+    &:hover {
+        &:before {
+            border-left: 5em solid transparent;
+            border-bottom:5em solid $jh-blue;
+            border-bottom:5em solid rgba( $jh-blue, .9 );
+        }
+    }
+}
+

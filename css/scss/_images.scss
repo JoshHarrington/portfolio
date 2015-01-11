@@ -1,0 +1,37 @@
+.bgImg {
+    width: 100%;
+    height:100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    .brunelsChart & {
+        background-image: url('../../img/brunelsChart.jpg');
+    }
+    .agriculture & {
+        background-image: url('../../img/agricultureOpt.jpg');
+    }
+    .agriculture.wide & {
+        background-image: url('../../img/agricultureWide.jpg');
+    }
+    .brand & {
+        background-image: url('../../img/russellBrandOpt.jpg');
+    }
+    .brand.wide & {
+        background-image: url('../../img/russellBrandWide.jpg');
+    }
+}
+
+.bridge {
+    background-image: url('/img/bridge.jpg');
+}
+
+.coast {
+    background-image: url('/img/coast.jpg');  
+}
+
+.lightning {
+    background-image: url('/img/lightning.jpg');  
+}

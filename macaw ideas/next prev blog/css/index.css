@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Quattrocento;
+  color: rgb(0,0,0);
+}
+
+div p {
+  margin-bottom: 1em;
+}
+
+.container {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 556px;
+  margin-top: 43px;
+}
+
+.container .text {
+  width: 80%;
+  min-height: 556px;
+  margin-left: 3.0833333333%;
+}
+
+.element {
+  float: left;
+}
+
+.text {
+  float: left;
+  color: rgb(0,0,0);
+}
+
+.element-1 {
+  width: 6.9166666666%;
+  height: 432px;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-2 {
+  width: 6.9166666666%;
+  height: 432px;
+  margin-left: 3.0833333333%;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-3 {
+  clear: both;
+  width: 86.1666666666%;
+  height: 99px;
+  margin: -112px 0 0 6.9166666666%;
+  background-color: rgb(255, 255, 255);
+}
+
+.text-1 {
+  width: 52.8333333333%;
+  margin: 65px 0 0 10%;
+  font: 2.438em 'Fauna One';
+}
+
+.text-2 {
+  clear: both;
+  width: 80%;
+  min-height: 126px;
+  margin: 13px 0 0 10%;
+  font-size: 1.375em;
+}
+
+@media(max-width: 511px) {
+  .container {
+    position: relative;
+    height: 958px;
+    margin-top: 67px;
+  }
+
+  .container .element {
+    position: absolute;
+    float: none;
+  }
+
+  .container .text {
+    margin-left: 9.9804305283%;
+  }
+
+  .container .element-1 {
+    top: 456px;
+    width: 45.0097847358%;
+    height: 81px;
+  }
+
+  .container .element-2 {
+    top: 456px;
+    left: auto;
+    right: 0;
+    width: 45.0097847358%;
+    height: 81px;
+  }
+
+  .container .element-3 {
+    clear: none;
+    top: 430px;
+    left: 0;
+    width: 99.8043052837%;
+    height: 880px;
+  }
+}
